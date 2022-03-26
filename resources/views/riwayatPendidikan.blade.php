@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Data Mahasiswa</title>
+    <title>Riwayat Pendidikan</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,10 +20,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Informasi Pribadi</a>
+          <a class="nav-link" aria-current="page" href="/">Informasi Pribadi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/riwayatPendidikan">Riwayat Pendidikan</a>
+          <a class="nav-link active" href="/riwayatPendidikan">Riwayat Pendidikan</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/skill">Skill</a>
@@ -42,6 +42,34 @@
     </div>
   </div>
 </nav>
+
+    <table class="table">
+    <thead>
+        <tr>
+        <th scope="col">Tingkat</th>
+        <th scope="col">Tempat</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td><strong>Sekolah Dasar</strong></td>
+        <td>SD Sutomo 1 Medan</td>
+        </tr>
+        <tr>
+        <td><strong>Sekolah Menengah Pertama</strong></td>
+        <td>SMP Sutomo 1 Medan</td>
+        </tr>
+        <tr>
+        <td><strong>Sekolah Menengah Akhir</strong></td>
+        <td>SMA Sutomo 1 Medan</td>
+        </tr>
+        <tr>
+        <td><strong>Sarjana 1</strong></td>
+        <td>Universitas Pelita Harapan Kampus Medan</td>
+        </tr>
+    </tbody>
+    </table>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

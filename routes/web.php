@@ -25,6 +25,10 @@ Route::get('/skill', function () {
     return view('skill');
 });
 
+Route::get('/skill/{id}', function ($id) {
+    return view('skillID', ['id' => $id]);
+});
+
 Route::get('/riwayatPekerjaan', function () {
     return view('riwayatPekerjaan');
 });
