@@ -29,7 +29,7 @@
           <a class="nav-link" href="/skill">Skill</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/riwayatPekerjaan">Riwayat Pekerjaan</a>
+          <a class="nav-link" href="{{ route('rPekerjaan') }}">Riwayat Pekerjaan</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/hobi">Hobi</a>
@@ -46,7 +46,6 @@
 <table class="table">
   <thead>
     <tr>
-
       <th scope="col"></th>
       <th scope="col"></th>
     </tr>

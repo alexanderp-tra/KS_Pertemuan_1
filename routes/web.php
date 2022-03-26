@@ -31,7 +31,7 @@ Route::get('/skill/{id}', function ($id) {
 
 Route::get('/riwayatPekerjaan', function () {
     return view('riwayatPekerjaan');
-});
+}) ->name('rPekerjaan');
 
 Route::get('/hobi', function () {
     return view('hobi');
